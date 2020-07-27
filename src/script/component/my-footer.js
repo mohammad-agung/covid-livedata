@@ -34,7 +34,7 @@ class MyFooter extends HTMLElement {
                 }
             </style>
             <div 
-                class="footer">Data Coronavirus © 2020 <a href="https://github.com/CopyCoding25?tab=repositories"><span> Mohammad Agung</span></a>
+                class="footer">Submission Dicoding.com © 2020 <a href="https://github.com/CopyCoding25?tab=repositories"><span> Mohammad Agung</span></a>
             </div>
         `;
     }
