@@ -1,7 +1,13 @@
 import "regenerator-runtime";
-import "./bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/style.css";
-import "./Jquery";
-import main from "./script/view/main.js";
-
-document.addEventListener("DOMContentLoaded", main);
+import "./styles/responsive.css";
+import "jquery";
+import "bootstrap/dist/js/bootstrap.bundle";
+import './script/component/my-footer.js';
+import dataSource from "./script/view/data-source.js";
+import dataTabel from "./script/view/data-tabel.js";
+import headerSticky from "./script/animation/header-sticky";
+headerSticky();
+dataSource();
+dataTabel();

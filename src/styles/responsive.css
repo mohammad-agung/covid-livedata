@@ -1,0 +1,15 @@
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .nav-item {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 18px;
+    }
+}
