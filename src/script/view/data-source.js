@@ -59,7 +59,7 @@ function dataSource() {
             </div>
         </div>`;
 
-        let [month, date, year] = (new Date(data.updated)).toLocaleString().split("/");
+        let [date, month, year] = (new Date(data.updated)).toLocaleString().split("/");
 
         updateAllData.innerHTML +=
             `<div class="col-lg-12">
