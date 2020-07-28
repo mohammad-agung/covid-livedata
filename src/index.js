@@ -1,8 +1,8 @@
 import "regenerator-runtime";
+
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/style.css";
-import "./styles/responsive.css";
-import "./styles/animation.css";
 import "jquery";
 import "bootstrap/dist/js/bootstrap.bundle";
 import './script/component/my-footer.js';
