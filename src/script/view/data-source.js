@@ -63,7 +63,7 @@ function dataSource() {
 
         updateAllData.innerHTML +=
             `<div class="col-lg-12">
-                <p class="text-center">UPDATE : ${date}/${month}/${year}</p>
+                <p class="text-center"><b>UPDATE : ${date}/${month}/${year}</b></p>
             </div>`;
     }
 

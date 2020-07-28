@@ -8,7 +8,6 @@ function headerSticky() {
 
     function myFunction(mediaQueryOn) {
         if (mediaQueryOn.matches) { // If media query matches
-            console.log('ok');
             document.getElementById("head").style.boxShadow = "0 2px 10px rgba(0, 0, 0, .5)";
         } else {
 
@@ -21,7 +20,6 @@ function headerSticky() {
                 document.querySelector(".navbar-nav").style.fontSize = "1.2em";
                 document.getElementById("head").style.boxShadow = "0 0 0 rgba(0, 0, 0, 0)";
             }
-            console.log('siap');
         }
     }
 }

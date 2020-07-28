@@ -3,13 +3,57 @@
         text-align: center;
     }
 
+    .covid-bg {
+        display: none;
+    }
+
     .nav-item {
         margin-top: 10px;
+    }
+
+    .info {
+        text-align: center;
+    }
+
+    .info .corona {
+        width: 8%;
     }
 }
 
 @media (max-width: 576px) {
     .navbar-brand {
         font-size: 18px;
+    }
+
+    .info {
+        margin: 0 20px;
+    }
+
+    .info h1 {
+        font-weight: bold;
+        font-size: 2.5em;
+    }
+
+    .info p {
+        font-size: 1.2em;
+    }
+
+    .info .corona {
+        width: 10%;
+    }
+
+    .info-jumbotron h3 {
+        margin-top: 10px;
+        font-size: 24px;
+    }
+
+    .info-jumbotron p {
+        font-size: 16px;
+        height: 150px;
+    }
+
+    .info-jumbotron a {
+        color: whitesmoke;
+        text-decoration: none;
     }
 }

@@ -17,6 +17,7 @@ function dataTabel() {
                     active: country.active
 
                 }));
+
                 renderDataCovidCountries(dataSort);
 
             })
@@ -46,8 +47,10 @@ function dataTabel() {
         listDataCovid.innerHTML = "";
 
         dataSort.sort(sortData("cases"));
-        let Nomor = 1;
+        var Nomor = 1;
+
         dataSort.forEach(data => {
+            // if (Nomor < 11) {
             listDataCovid.innerHTML += `
             <tr>
                 <td>${Nomor++}</td>
@@ -60,6 +63,7 @@ function dataTabel() {
                 <td>${data.toDayDeaths}</td>
                 <td>${data.toDayRecovered}</td>
             </tr>`;
+            // }
         })
     }
 
